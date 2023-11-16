@@ -179,7 +179,7 @@ function Room() {
 
                         <div className='video-box'>
 
-                            <Reactplayer  url={userstream} playing muted />
+                            <Reactplayer  url={userstream} playing  />
 
 
                         </div>
@@ -196,7 +196,7 @@ function Room() {
             }
 
 
-            <Reactplayer width={200} height={200} url={strem} playing muted />
+            <Reactplayer width={200} height={200} url={strem} playing  />
 
 
 
