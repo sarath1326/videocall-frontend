@@ -9,7 +9,7 @@ export const socketContext=createContext(null)
 
 export const SocketProvider=(props)=>{
 
-    const Socket=useMemo(()=>io("http://localhost:8000"),[])
+    const Socket=useMemo(()=>io("https://videocallbackend-pye0.onrender.com"),[])
 
     return (
 
