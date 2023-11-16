@@ -196,7 +196,7 @@ function Room() {
             }
 
 
-            <Reactplayer width={200} height={200} url={strem} playing  />
+            <Reactplayer width={200} height={200} url={strem} playing muted  />
 
 
 
