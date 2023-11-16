@@ -143,7 +143,7 @@ function Room() {
 
         peer.on("stream", (stream) => {
 
-            setuserstream(strem)
+            setuserstream(stream)
 
             console.log("doctor stream", stream)
         })
